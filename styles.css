@@ -1,0 +1,99 @@
+/* Tipografía minimalista */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #fafafa;
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #f9d5ec, #d7f9f1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #444;
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+/* Contenedor principal */
+.contenedor {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Grid de productos */
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* Tarjetas */
+.card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+  color: #444;
+}
+
+.precio {
+  font-size: 1.2rem;
+  color: #6a5acd;
+  font-weight: bold;
+  margin: 0.5rem 0 1rem;
+}
+
+/* Botón */
+.btn {
+  background: #a0d9d9;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #333;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #91cfcf;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+  background-color: #f2f2f2;
+}
